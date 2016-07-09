@@ -1,0 +1,23 @@
+Model_DAO
+  Modelo de negócio, transações, banco de dados, codigo sql
+
+Controller
+  Validação de campo, verificação
+
+View_GUI
+  Visual, só o que o user encherga
+
+Beans
+  Propriedades da View, temporarios
+
+Utilitários_Utill
+  clases uteis, classe de conexão
+
+
+
+Model
+Tenha uma coisa em mente: quando pensar em Model, pense em estruturas de dados! Num software baseado em MVC, é o Model que tem o contato com as informações armazenadas e que são mostradas, estejam elas em um banco de dados, arquivo XML, ou onde quer que estejam. É no Model e somente no Model que as operações de CRUD devem acontecer.
+View
+É a apresentação, é o que aparece, é o que é visualizado por quem usa o sistema. É no View que as informações, sejam elas quais forem e de de qual lugar tenha vindo, serão exibidas para a pessoa – logicamente acompanhadas de um bom design, uma boa estrutura organizacional, um ambiente agradável para quem está vendo, e muitos outros.
+Controller
+Como sugere o nome, é responsável por controlar todo o fluxo do programa. É o “cérebro” e o “coração” do aplicativo; é no Controller que se decide “se”, “o que”, “quando”, “onde” e tudo o mais que faz com que a lógica funcione. Desde o que deve ser consultado no banco de dados à tela que vai ser exibida para quem usa o programa/sistema, é no Controller que tudo isso deve ser definido.
